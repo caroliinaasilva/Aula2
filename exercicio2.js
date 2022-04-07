@@ -1,7 +1,7 @@
 // 2 - Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
 
-let a = 900
-let b = 80
-let c = a / b
+let distanciaApercorrer = 900
+let velocidadeMedia = 80
+let horasDeViagem = distanciaApercorrer / velocidadeMedia
 
-console.log(`A viagem irá durar cerca de ${c} horas.`)
+console.log(`A viagem irá durar cerca de ${horasDeViagem} horas.`)
